@@ -26,65 +26,6 @@ def dose():
     elif a>45 and a==0:
      print("  you cannot be dosed")    
     return d,G,n
-def password():
-    def num_puzel():
-        f=first_num()
-        s=second_num()
-        t=third_num()
-        r=fourth_num()
-        d=fifth_num()
-        return f,s,t,r,d
-    def fifth_num():
-            g=18+32
-            s=g+150
-            j=s/25
-            j=int(j)
-            return j
-    def fourth_num():
-            p=600+40
-            j=p/10
-            s=j/32
-            s=int(s)
-            return s
-    def third_num():
-            t=150
-            p=t+150
-            s=p/50
-            j=s-5
-            j=int(j)
-            return j
-    def second_num():
-            f=100+200
-            h=f/50
-            s=h-5
-            p=s+2
-            p=int(p)
-            return p
-    def first_num():
-            j=100+50
-            s=j/3
-            n=s-50
-            n=int(n)
-            return n    
-    a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z='z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a',
-    n=[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
-    y,e,w,u,v=num_puzel()
-    j=n[len(n)-19]
-    i=n[len(n)-8]
-    s=n[len(n)-18]
-    p=n[len(n)-5]
-    t=n[len(n)-25]
-    x=n[len(n)-1]
-    r=n[len(n)-19]
-    print("  Enter the code")
-    a,b,c,d,q,f,g,h,o,l,k=100/10,(10*100)*2,((110+230)/10)-4,((50+60)/10)+29,(50+70)/20+30,10*30+2/100,((1000/10)+400)+500,40*20+100,10+2/10,(100%10+2)*10,100+20
-    n=int(input("  "))
-    if (n==b+d+g):
-        s=("password is ",j,i,s,p,t,x,r,y,e,w,u,u,y, y,v)
-        return s
-    else:
-        s="error"
-        return s
 def addition():
     p=0
     print(" 1.addition")
@@ -291,10 +232,6 @@ while(f=='yes'):
         print("  sum of the enterd numbers=",p)
         print("  do you want to repeat[yes/no]")
         f=input("  ")
-    elif n==z:
-        d=password()
-        print(" ",d)
-        break
     elif n==2:
         p=substract()
         print("  difference=",p)
@@ -437,4 +374,4 @@ while(f=='yes'):
             print("  ",l[i])
             num=num[0:3]
         print("  do you want to repeat[yes/no]")    
-        f=input("  ")        
+        f=input("  ")         
